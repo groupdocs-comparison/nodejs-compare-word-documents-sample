@@ -16,11 +16,11 @@ Get started with GroupDocs.Comparison for Node.js to compare Word documents prog
 
 ## ✨ What You'll Learn
 
-- 🎯 Perform basic Word document comparison using default settings.
-- 🎯 Apply custom styling to highlight inserted, deleted, and changed content.
-- 🎯 Compare password‑protected documents by providing load options.
-- 🎯 Use Java input streams for document comparison without file‑system paths.
-- 🎯 Generate a summary page that aggregates all changes in the result document.
+- Perform basic Word document comparison using default settings.
+- Apply custom styling to highlight inserted, deleted, and changed content.
+- Compare password‑protected documents by providing load options.
+- Use Java input streams for document comparison without file‑system paths.
+- Generate a summary page that aggregates all changes in the result document.
 
 ## 📋 Table of Contents
 
@@ -44,20 +44,20 @@ GroupDocs.Comparison provides powerful document processing capabilities:
 
 | Feature | Description |
 |---------|-------------|
-| 🎯 **Document Comparison** | Compare two or more documents and detect insertions, deletions, and modifications. |
-| 🎯 **Change Highlighting** | Automatic visual cues (colors, font styles) for added, removed, or altered content. |
-| 🎯 **Multi‑format Support** | Works with DOCX, PDF, PPTX, and many other popular formats. |
-| 🎯 **Password‑Protected Handling** | Load and compare encrypted documents by supplying passwords. |
-| 🎯 **Summary Page Generation** | Produce a consolidated page summarising all detected changes. |
+|  **Document Comparison** | Compare two or more documents and detect insertions, deletions, and modifications. |
+|  **Change Highlighting** | Automatic visual cues (colors, font styles) for added, removed, or altered content. |
+|  **Multi‑format Support** | Works with DOCX, PDF, PPTX, and many other popular formats. |
+|  **Password‑Protected Handling** | Load and compare encrypted documents by supplying passwords. |
+|  **Summary Page Generation** | Produce a consolidated page summarising all detected changes. |
 
 ### What This Repository Demonstrates
 
-- ✅ Basic comparison with default colors
-- ✅ Advanced comparison with custom styling
-- ✅ Comparison of password‑protected Word files
-- ✅ Stream‑based comparison using Java input streams
+- Basic comparison with default colors
+- Advanced comparison with custom styling
+- Comparison of password‑protected Word files
+- Stream‑based comparison using Java input streams
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 Before you begin, ensure you have:
 
@@ -65,7 +65,7 @@ Before you begin, ensure you have:
 - **📦 Java** – JRE/JDK 8+ (Java 17 recommended)
 - **📦 License** – Temporary GroupDocs.Comparison license (obtain via the Temporary License badge above)
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 groupdocs-comparison-word-documents-nodejs/
@@ -88,18 +88,18 @@ groupdocs-comparison-word-documents-nodejs/
 
 ### File Overview
 
-- **📄 compareWordDocuments.js** – Core functions for comparing Word files, creating style settings, and performing advanced comparisons.
-- **📄 basicComparison.js** – Minimal example showing default comparison.
-- **📄 advancedComparison.js** – Example with custom styling and summary page generation.
-- **📄 passwordProtectedComparison.js** – Demonstrates handling of password‑protected documents.
-- **📄 streamComparison.js** – Shows how to compare documents using Java input streams.
-- **📄 fileHelper.js** – Helper utilities for file existence checks and directory creation.
-- **📄 package.json** – Project metadata and dependency declarations.
-- **📄 package-lock.json** – Exact versions of all npm dependencies.
-- **📄 QUICKSTART.md** – Step‑by‑step guide for getting started quickly.
-- **📄 README.md** – This documentation file.
+- **compareWordDocuments.js** – Core functions for comparing Word files, creating style settings, and performing advanced comparisons.
+- **basicComparison.js** – Minimal example showing default comparison.
+- **advancedComparison.js** – Example with custom styling and summary page generation.
+- **passwordProtectedComparison.js** – Demonstrates handling of password‑protected documents.
+- **streamComparison.js** – Shows how to compare documents using Java input streams.
+- **fileHelper.js** – Helper utilities for file existence checks and directory creation.
+- **package.json** – Project metadata and dependency declarations.
+- **package-lock.json** – Exact versions of all npm dependencies.
+- **QUICKSTART.md** – Step‑by‑step guide for getting started quickly.
+- **README.md** – This documentation file.
 
-## 💻 Implementation Examples
+## Implementation Examples
 
 ### Example 1: Compares two Word documents and generates a result document highlighting differences.
 
@@ -401,7 +401,7 @@ The script creates `FileInputStream` objects for source and target files, passes
 A stream‑based workflow that avoids writing temporary files to disk. It is ideal for scenarios where documents are sourced from databases, cloud storage, or HTTP responses.
 ---
 
-## 📚 Related Resources
+## Related Resources
 
 Explore these additional resources to deepen your understanding of Word document comparison:
 
