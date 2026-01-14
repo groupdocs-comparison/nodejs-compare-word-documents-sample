@@ -150,6 +150,7 @@ This function validates input files, prepares the output directory, configures `
 **What This Example Shows:**
 
 The snippet demonstrates the end‑to‑end workflow for a standard Word‑to‑Word comparison, including input validation, optional password handling, and the execution of the comparison request. It returns the path to the generated result document where changes are visually highlighted.
+
 ---
 
 ### Example 2: Creates style settings for comparison options with customizable formatting.
@@ -174,6 +175,7 @@ This helper builds a `StyleSettings` object, allowing callers to specify highlig
 **What This Example Shows:**
 
 The code illustrates how to configure visual attributes for each type of change (inserted, deleted, or modified). By exposing a reusable function, developers can easily apply consistent styling across multiple comparison operations.
+
 ---
 
 ### Example 3: Compares Word documents with custom styling options for different change types.
@@ -211,6 +213,7 @@ This function assembles `CompareOptions` with distinct `StyleSettings` for inser
 **What This Example Shows:**
 
 By constructing a `CompareOptions` object with tailored `StyleSettings`, the example demonstrates fine‑grained control over how each change type is rendered in the output document. The optional summary page provides a high‑level overview of all differences.
+
 ---
 
 ### Example 4: Demonstrates basic Word document comparison using file paths.
@@ -238,8 +241,8 @@ The script sets the license, resolves file locations, and calls the core `compar
 ```
 
 **What This Example Shows:**
-
 A straightforward usage scenario that compares two Word documents located in the `sample-files` folder. It relies on the default styling (blue insertions, red deletions, green modifications) and produces `result_basic.docx` in the `output` directory.
+
 ---
 
 ### Example 5: Demonstrates advanced Word document comparison with custom styling options.
@@ -298,6 +301,7 @@ The script configures a rich `styleConfig` object, specifying colors, boldness, 
 **What This Example Shows:**
 
 An in‑depth demonstration of how to apply distinct visual treatments for inserted, deleted, and changed content, as well as how to generate a summary page that aggregates all modifications for quick review.
+
 ---
 
 ### Example 6: Demonstrates comparison of password‑protected Word documents.
@@ -344,6 +348,7 @@ The example loads source and target files that require passwords, supplying thos
 **What This Example Shows:**
 
 How to handle encrypted Word documents by providing the appropriate passwords for both source and target files. The snippet also includes robust error handling to guide developers when password‑related issues arise.
+
 ---
 
 ### Example 7: Demonstrates Word document comparison using Java input streams instead of file paths.
@@ -399,6 +404,7 @@ The script creates `FileInputStream` objects for source and target files, passes
 **What This Example Shows:**
 
 A stream‑based workflow that avoids writing temporary files to disk. It is ideal for scenarios where documents are sourced from databases, cloud storage, or HTTP responses.
+
 ---
 
 ## Related Resources
