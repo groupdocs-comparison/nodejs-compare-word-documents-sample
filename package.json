@@ -1,0 +1,32 @@
+{
+  "name": "groupdocs-comparison-word-documents-nodejs",
+  "version": "1.0.0",
+  "description": "Sample project demonstrating how to compare Word documents in different ways using GroupDocs.Comparison for Node.js via Java",
+  "main": "src/compareWordDocuments.js",
+  "scripts": {
+    "start": "node src/compareWordDocuments.js",
+    "example:basic": "node src/examples/basicComparison.js",
+    "example:advanced": "node src/examples/advancedComparison.js",
+    "example:password": "node src/examples/passwordProtectedComparison.js",
+    "example:stream": "node src/examples/streamComparison.js",
+    "example:all": "node run-all-examples.js"
+  },
+  "keywords": [
+    "groupdocs",
+    "comparison",
+    "word",
+    "docx",
+    "document-comparison",
+    "word-comparison",
+    "nodejs"
+  ],
+  "author": "GroupDocs",
+  "license": "MIT",
+  "dependencies": {
+    "@groupdocs/groupdocs.comparison": "^25.11.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
+
