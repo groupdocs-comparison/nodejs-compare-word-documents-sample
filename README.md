@@ -411,9 +411,9 @@ A stream‑based workflow that avoids writing temporary files to disk. It is ide
 
 Explore these additional resources to deepen your understanding of Word document comparison:
 
-* **[**5 Practical Ways to Compare Word Documents Programmatically**](https://docs.groupdocs.com/comparison/nodejs-java/compare-word-documents) – Learn common patterns and best practices for document comparison.
+* **[**Optimize Document Comparison Performance: Scale to Millions of Files with Node.js**]([https://docs.groupdocs.com/comparison/nodejs-java/compare-word-documents](https://blog.groupdocs.com/comparison/optimize-document-comparison-performance-scale-millions-files-nodejs/))
 
-* **[**Custom Styling Options for Document Comparison Results**](https://reference.groupdocs.com/comparison/nodejs/custom-styling) – Detailed guide on configuring `StyleSettings` for granular visual control.
+* **[**Legal Document Comparison API: Automate Contract Review with Node.js**](https://blog.groupdocs.com/comparison/legal-document-comparison-api-contract-review-automation-nodejs/)
 
 * **[**Handling Password‑Protected Documents with GroupDocs.Comparison**](https://docs.groupdocs.com/comparison/nodejs-java/password-protected) – Strategies for loading and comparing encrypted files.
 
