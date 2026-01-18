@@ -411,7 +411,7 @@ A stream‑based workflow that avoids writing temporary files to disk. It is ide
 
 Explore these additional resources to deepen your understanding of Word document comparison:
 
-* **[**Optimize Document Comparison Performance: Scale to Millions of Files with Node.js**]([https://docs.groupdocs.com/comparison/nodejs-java/compare-word-documents](https://blog.groupdocs.com/comparison/optimize-document-comparison-performance-scale-millions-files-nodejs/))
+* **[**Optimize Document Comparison Performance: Scale to Millions of Files with Node.js**](https://blog.groupdocs.com/comparison/optimize-document-comparison-performance-scale-millions-files-nodejs/)
 
 * **[**Legal Document Comparison API: Automate Contract Review with Node.js**](https://blog.groupdocs.com/comparison/legal-document-comparison-api-contract-review-automation-nodejs/)
 
